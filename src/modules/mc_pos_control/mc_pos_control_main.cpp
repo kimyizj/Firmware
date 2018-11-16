@@ -132,7 +132,7 @@ private:
 	vehicle_local_position_s		_local_pos{};			/**< vehicle local position */
 	home_position_s				_home_pos{};			/**< home position */
 	vehicle_trajectory_waypoint_s		_traj_wp_avoidance{};		/**< trajectory waypoint */
-	vehicle_trajectory_waypoint_s		_traj_wp_avoidance_desired{};	/**< desired waypoints, inputs to an obstacle avoidance module */
+	vehicle_trajectory_waypoint_s		_traj_wp_avoidance_desired{};	/**<  desired waypoints, inputs to an obstacle avoidance module */
 
 	DEFINE_PARAMETERS(
 		(ParamFloat<px4::params::MPC_TKO_RAMP_T>) _takeoff_ramp_time, /**< time constant for smooth takeoff ramp */
